@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -29,15 +30,15 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-red-500 mb-6">Get In Touch</h3>
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">
-                <span className="text-red-500 mr-3">📍</span>
-                Shaikpet Nalla, Manikonda, HYD 500049
+                <FaMapMarkerAlt className="text-red-500 mr-3 text-lg" />
+                Shaikpet Nala, Manikonda, HYD 500049
               </div>
               <div className="flex items-center text-gray-300">
-                <span className="text-red-500 mr-3">📞</span>
+                <FaPhone className="text-red-500 mr-3 text-lg" />
                 9652418523
               </div>
               <div className="flex items-center text-gray-300">
-                <span className="text-red-500 mr-3">✉️</span>
+                <FaEnvelope className="text-red-500 mr-3 text-lg" />
                 info@Cutoutgym.com
               </div>
             </div>

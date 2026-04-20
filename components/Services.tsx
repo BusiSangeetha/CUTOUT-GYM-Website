@@ -7,17 +7,17 @@ const Services = () => {
     {
       title: 'Strength Training',
       description: 'Build muscle and increase strength with our comprehensive weight training programs.',
-      icon: '💪'
+      icon: ''
     },
     {
       title: 'Cardio',
       description: 'Improve cardiovascular health and endurance with our variety of cardio equipment.',
-      icon: '🏃'
+      icon: ''
     },
     {
       title: 'Yoga',
       description: 'Find balance and flexibility through our yoga classes and meditation sessions.',
-      icon: '🧘'
+      icon: ''
     }
   ];
 

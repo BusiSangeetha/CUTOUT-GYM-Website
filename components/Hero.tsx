@@ -22,7 +22,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-5xl font-bold text-center"
         >
-          Sweat. Train. Repeat 💪
+          Sweat. Train. Repeat 
         </motion.h1>
 
         <Link href="/join">

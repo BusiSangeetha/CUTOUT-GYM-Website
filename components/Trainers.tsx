@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { FaUser } from 'react-icons/fa';
 
 const Trainers = () => {
   const trainers = [
@@ -49,7 +50,7 @@ const Trainers = () => {
               className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-red-600/20 hover:border-red-600/50 transition-all duration-300 text-center"
             >
               <div className="w-24 h-24 bg-gray-700 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
-                👤
+                <FaUser className="text-red-500 text-3xl" />
               </div>
               <h3 className="text-xl font-semibold text-red-500 mb-2">{trainer.name}</h3>
               <p className="text-gray-300">{trainer.specialty}</p>
